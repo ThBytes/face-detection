@@ -1,7 +1,7 @@
 const express = require("express");
 const fileUpload = require("express-fileupload");
 const fs = require("fs");
-const { Canvas, Image, ImageData, loadImage, createCanvas } = require("canvas");
+const { Canvas, Image, ImageData, loadImage } = require("canvas");
 const faceapi = require("face-api.js");
 
 const app = express();
